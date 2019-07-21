@@ -11,7 +11,7 @@ var arrOfObj1 = [
   { b: 5 },
   { c: 16 },
   { d: 4 },
-  { e: 3 }
+  { e: 3 },
 ]
 Ex: addKeyPowerIndex(arrOfObj1)
 => [
@@ -19,18 +19,18 @@ Ex: addKeyPowerIndex(arrOfObj1)
   {1: 1, b: 5},
   {2: 4, c: 16},
   {3: 9, d: 4},
-  {4: 16, e: 3}
+  {4: 16, e: 3},
 ] 
 var arrOfObj2 = [
   { a: 'cat' },
   { b: 'dog' },
-  { c: 'duck' }
+  { c: 'duck' },
 ]
 Ex: addKeyPowerIndex(arrOfObj2)
 => [
   {0: 0, a: 'cat'},
   {1: 1, b: 'dog'},
-  {2: 4, c: 'duck'}
+  {2: 4, c: 'duck'},
 ]   
 */
 function addKeyPowerIndex(obj){
@@ -131,7 +131,7 @@ var arrOfObj4 = [
   { name: "mercer", food: "pizaa" },
   { name: "alice", food: "burger" },
   { name: "zaheer", food: "hot dog" },
-  { name: "elizabeth", food: "eggs" }
+  { name: "elizabeth", food: "eggs" },
 ]
 Ex: avgLength(arrOfObj4,"name")
 => 6
@@ -158,7 +158,7 @@ var arrOfObj4 = [
   {name: "mercer", food: "pizaa"},
   {name: "alice", food: "burger"},
   {name: "zaheer", food: "hot dog"},
-  {name: "elizabeth", food: "eggs"}
+  {name: "elizabeth", food: "eggs"},
 ]
 
 console.log(avgLength(arrOfObj4,"food"));
